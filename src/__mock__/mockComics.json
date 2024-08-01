@@ -1,0 +1,3216 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2024 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2024 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>",
+    "etag": "80774d9b761a9a78f148de85b9c4fb02088fc6cf",
+    "data": {
+      "offset": 0,
+      "limit": 20,
+      "total": 2745,
+      "count": 20,
+      "results": [
+        {
+          "id": 1886,
+          "digitalId": 0,
+          "title": "Official Handbook of the Marvel Universe (2004) #12 (SPIDER-MAN)",
+          "issueNumber": 12,
+          "variantDescription": "SPIDER-MAN",
+          "description": "",
+          "modified": "-0001-11-30T00:00:00-0500",
+          "isbn": "",
+          "upc": "5960605667-00111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 0,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "The spectacular sequel to last year's OFFICIAL HANDBOOK OF THE MARVEL UNIVERSE: SPIDER-MAN 2004, this Official Handbook contains in-depth bios on more than 30 of the wisecracking web-slinger's closest allies and most infamous enemies - including the Stacy Twins, fresh from the pages of AMAZING SPIDER-MAN, and Toxin, in time for this month's TOXIN #1! Plus: An all-new cover by superstar artist Tom Raney, digitally painted by Morry Hollowell.\r<br>48 PGS./Marvel PSR ...$3.99\r<br>"
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1886",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/1886/official_handbook_of_the_marvel_universe_2004_12_spider-man/spider-man?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/787",
+            "name": "Official Handbook of the Marvel Universe (2004)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "-0001-11-30T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/4bc64020a4ccc",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/4bc64020a4ccc",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 12,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1886/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/907",
+                "name": "Heather Buchanan",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/887",
+                "name": "Ronald Byrd",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/902",
+                "name": "Jeff Christiansen",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/909",
+                "name": "Eric Engelhard",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/906",
+                "name": "Mike Fichera",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/910",
+                "name": "Jason Godin",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/897",
+                "name": "Sean Mcquaid",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/900",
+                "name": "Barry Reese",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/905",
+                "name": "Al Sjoerdsma",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/911",
+                "name": "Bryan Thiessen",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/908",
+                "name": "Kerry Wilkinson",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/444",
+                "name": "Tom Raney",
+                "role": "penciller (cover)"
+              }
+            ],
+            "returned": 12
+          },
+          "characters": {
+            "available": 14,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1886/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009156",
+                "name": "Apocalypse"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009197",
+                "name": "Blink"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+                "name": "Colossus"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009313",
+                "name": "Gambit"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009349",
+                "name": "Holocaust (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+                "name": "Magneto"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009447",
+                "name": "Mister Sinister"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009546",
+                "name": "Rogue"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010969",
+                "name": "Sabretooth (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010975",
+                "name": "Shadowcat (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010976",
+                "name": "Silver Samurai (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010979",
+                "name": "Storm (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009636",
+                "name": "Sunfire"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 14
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1886/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4430",
+                "name": "Cover #4430",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4431",
+                "name": "Interior #4431",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1886/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 1332,
+          "digitalId": 0,
+          "title": "X-Men: Days of Future Past (Trade Paperback)",
+          "issueNumber": 0,
+          "variantDescription": "",
+          "description": "",
+          "modified": "2017-02-28T14:52:22-0500",
+          "isbn": "0-7851-1560-9",
+          "upc": "5960611560-00111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Trade Paperback",
+          "pageCount": 144,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "\"Re-live the legendary first journey into the dystopian future of 2013 - where Sentinels stalk the Earth, and the X-Men are humanity's only hope...until they die! Also featuring the first appearance of Alpha Flight, the return of the Wendigo, the history of the X-Men from Cyclops himself...and a demon for Christmas!? \""
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1332",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/collection/1332/x-men_days_of_future_past_trade_paperback?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/1327",
+            "name": "X-Men: Days of Future Past (2004)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/13683",
+              "name": "Uncanny X-Men (1981) #142"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/comics/12460",
+              "name": "Uncanny X-Men (1981) #141"
+            }
+          ],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "-0001-11-30T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 9.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58b5cfb6d5239",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58b5cfb6d5239",
+              "extension": "jpg"
+            },
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/4bc66463ef7f0",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1332/creators",
+            "items": [],
+            "returned": 0
+          },
+          "characters": {
+            "available": 10,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1332/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009159",
+                "name": "Archangel"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009164",
+                "name": "Avalanche"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009199",
+                "name": "Blob"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+                "name": "Colossus"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009271",
+                "name": "Destiny"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009472",
+                "name": "Nightcrawler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009522",
+                "name": "Pyro"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
+                "name": "Storm"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+                "name": "X-Men"
+              }
+            ],
+            "returned": 10
+          },
+          "stories": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1332/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/15472",
+                "name": "Days of Future Past",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/27788",
+                "name": "Mind Out of Time!",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/65738",
+                "name": "X-MEN: DAYS OF FUTURE PAST TPB 0 cover",
+                "type": "cover"
+              }
+            ],
+            "returned": 3
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1332/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 27238,
+          "digitalId": 0,
+          "title": "Wolverine Saga (2009) #7",
+          "issueNumber": 7,
+          "variantDescription": "",
+          "description": null,
+          "modified": "-0001-11-30T00:00:00-0500",
+          "isbn": "",
+          "upc": "5960606814-00711",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/27238",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/27238/wolverine_saga_2009_7?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/8086",
+            "name": "Wolverine Saga (2009)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "2009-06-11T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 0
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+            "extension": "jpg"
+          },
+          "images": [],
+          "creators": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/27238/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                "name": "Jeff Youngquist",
+                "role": "editor"
+              }
+            ],
+            "returned": 1
+          },
+          "characters": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/27238/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                "name": "Iron Man"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/27238/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/59792",
+                "name": "Cover #59792",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/59793",
+                "name": "Interior #59793",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/27238/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 17486,
+          "digitalId": 0,
+          "title": "X-Men: Phoenix - Warsong (2006)",
+          "issueNumber": 0,
+          "variantDescription": "",
+          "description": null,
+          "modified": "2017-07-13T15:08:13-0400",
+          "isbn": "0-7851-1931-0",
+          "upc": "",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 0,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/17486",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/17486/x-men_phoenix_-_warsong_2006?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/3318",
+            "name": "X-Men: Phoenix - Warsong (2006)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "-0001-11-30T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 0
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/50/4c3645d0d29e3",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/5967d3020ef5a",
+              "extension": "jpg"
+            },
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/00/5967babd39573",
+              "extension": "jpg"
+            },
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/90/5967855eba7e7",
+              "extension": "jpg"
+            },
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/60/596782f82d9ba",
+              "extension": "jpg"
+            },
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/50/4c3645d0d29e3",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/17486/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1032",
+                "name": "Troy Peteri",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1026",
+                "name": "Tyler Kirkham",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/536",
+                "name": "Greg Pak",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/9395",
+                "name": "Salvador Regla",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5044",
+                "name": "Marc Silvestri",
+                "role": "penciller (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1029",
+                "name": "John STARR",
+                "role": "colorist"
+              }
+            ],
+            "returned": 7
+          },
+          "characters": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/17486/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009175",
+                "name": "Beast"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+                "name": "Colossus"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009257",
+                "name": "Cyclops"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009310",
+                "name": "Emma Frost"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009508",
+                "name": "Kitty Pryde"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+                "name": "X-Men"
+              }
+            ],
+            "returned": 7
+          },
+          "stories": {
+            "available": 12,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/17486/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5377",
+                "name": "1 of 5 - 5XLS",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5378",
+                "name": "1 of 5 - 5XLS",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5379",
+                "name": "2 of 5 - 5XLS",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5380",
+                "name": "3 of 5 - 5XLS",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5381",
+                "name": "3 of 5 - 5XLS",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5382",
+                "name": "4 of 5 - Warsong - 5XLS",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5383",
+                "name": "4 of 5 - Warsong - 5XLS",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5384",
+                "name": "5 of 5 - Warsong - 5XLS",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/5385",
+                "name": "5 of 5 - Warsong - 5XLS",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/7756",
+                "name": "5 of 5 - Warsong - 5XLS",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/7757",
+                "name": "5 of 5 - Warsong - 5XLS",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/67688",
+                "name": "X-MEN: PHOENIX - WARSONG TPB 0 cover",
+                "type": "cover"
+              }
+            ],
+            "returned": 12
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/17486/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 1590,
+          "digitalId": 0,
+          "title": "Official Handbook of the Marvel Universe (2004) #9 (THE WOMEN OF MARVEL)",
+          "issueNumber": 9,
+          "variantDescription": "THE WOMEN OF MARVEL",
+          "description": "",
+          "modified": "-0001-11-30T00:00:00-0500",
+          "isbn": "",
+          "upc": "5960605678-00111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 0,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "Marvel's leading ladies take center stage! This Official Handbook includes in-depth bios on more than 40 of the House's most powerful women warriors - from Araña to Vindicator! Plus: an all-new cover by superstar artist Greg Land!"
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1590",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/1590/official_handbook_of_the_marvel_universe_2004_9_the_women_of_marvel/the_women_of_marvel?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/787",
+            "name": "Official Handbook of the Marvel Universe (2004)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "-0001-11-30T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/4c7d666c0e58a",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/b0/4c7d666c0e58a",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 12,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1590/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/887",
+                "name": "Ronald Byrd",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/902",
+                "name": "Jeff Christiansen",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/919",
+                "name": "Jonathan Coupersmartt",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/903",
+                "name": "Anthony Flamini",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/888",
+                "name": "Michael Hoskin",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/898",
+                "name": "Bill Lentz",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/897",
+                "name": "Sean Mcquaid",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/394",
+                "name": "Eric J. Moreels",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/899",
+                "name": "Mark OEnglish",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/896",
+                "name": "Stuart Vandal",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/425",
+                "name": "Greg Land",
+                "role": "penciller (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/500",
+                "name": "Christopher Sotomayor",
+                "role": "colorist"
+              }
+            ],
+            "returned": 12
+          },
+          "characters": {
+            "available": 14,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1590/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009156",
+                "name": "Apocalypse"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009197",
+                "name": "Blink"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+                "name": "Colossus"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009313",
+                "name": "Gambit"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009349",
+                "name": "Holocaust (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+                "name": "Magneto"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009447",
+                "name": "Mister Sinister"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009546",
+                "name": "Rogue"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010969",
+                "name": "Sabretooth (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010975",
+                "name": "Shadowcat (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010976",
+                "name": "Silver Samurai (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010979",
+                "name": "Storm (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009636",
+                "name": "Sunfire"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 14
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1590/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4513",
+                "name": "Cover #4513",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4514",
+                "name": "Interior #4514",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1590/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 1749,
+          "digitalId": 0,
+          "title": "Official Handbook of the Marvel Universe (2004) #11 (X-MEN - AGE OF APOCALYPSE)",
+          "issueNumber": 11,
+          "variantDescription": "X-MEN - AGE OF APOCALYPSE",
+          "description": "",
+          "modified": "-0001-11-30T00:00:00-0500",
+          "isbn": "",
+          "upc": "5960605625-00111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 0,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "Your complete guide to the epic saga! This Official Handbook includes in-depth bios on more than 40 denizens of the Age of Apocalypse - from Abyss to Weapon X! Plus: An all-new cover by superstar-in-waiting Mark Brooks, digitally painted by Justin Ponsor.\r<br>48 PGS./Marvel PSR ...$3.99\r<br>"
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1749",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/1749/official_handbook_of_the_marvel_universe_2004_11_x-men_-_age_of_apocalypse/x-men_-_age_of_apocalypse?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/787",
+            "name": "Official Handbook of the Marvel Universe (2004)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "-0001-11-30T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/4bc6494ed6eb4",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/4bc6494ed6eb4",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1749/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/694",
+                "name": "Mark Brooks",
+                "role": "penciller (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/684",
+                "name": "Mike Raicht",
+                "role": "writer"
+              }
+            ],
+            "returned": 2
+          },
+          "characters": {
+            "available": 14,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1749/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009156",
+                "name": "Apocalypse"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009197",
+                "name": "Blink"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+                "name": "Colossus"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009313",
+                "name": "Gambit"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009349",
+                "name": "Holocaust (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+                "name": "Magneto"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009447",
+                "name": "Mister Sinister"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009546",
+                "name": "Rogue"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010969",
+                "name": "Sabretooth (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010975",
+                "name": "Shadowcat (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010976",
+                "name": "Silver Samurai (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010979",
+                "name": "Storm (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009636",
+                "name": "Sunfire"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 14
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1749/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4153",
+                "name": "Cover #4153",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4154",
+                "name": "Interior #4154",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1749/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 1994,
+          "digitalId": 0,
+          "title": "Official Handbook of the Marvel Universe (2004) #13 (TEAMS)",
+          "issueNumber": 13,
+          "variantDescription": "TEAMS",
+          "description": "",
+          "modified": "-0001-11-30T00:00:00-0500",
+          "isbn": "",
+          "upc": "5960605695-00111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 0,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "Heavy-hitting heroes unite! This Official Handbook contains in-depth bios on more than 30 of the Marvel Universe's most awesome assemblages - including the Defenders, Power Pack and the New Thunderbolts! Plus: An all-new cover by superstar artist Tom Grummett, digitally painted by Morry Hollowell.\r<br>48 PGS./All Ages ...$3.99\r<br>"
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1994",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/1994/official_handbook_of_the_marvel_universe_2004_13_teams/teams?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/787",
+            "name": "Official Handbook of the Marvel Universe (2004)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "-0001-11-30T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/20/4bc63a47b8dcb",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/20/4bc63a47b8dcb",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 10,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1994/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/887",
+                "name": "Ronald Byrd",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/902",
+                "name": "Jeff Christiansen",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/903",
+                "name": "Anthony Flamini",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/930",
+                "name": "Richard Green",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/888",
+                "name": "Michael Hoskin",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/897",
+                "name": "Sean Mcquaid",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/394",
+                "name": "Eric J. Moreels",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/899",
+                "name": "Mark OEnglish",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/896",
+                "name": "Stuart Vandal",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/483",
+                "name": "Tom Grummett",
+                "role": "penciller (cover)"
+              }
+            ],
+            "returned": 10
+          },
+          "characters": {
+            "available": 14,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1994/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009156",
+                "name": "Apocalypse"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009197",
+                "name": "Blink"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+                "name": "Colossus"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009313",
+                "name": "Gambit"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009349",
+                "name": "Holocaust (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+                "name": "Magneto"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009447",
+                "name": "Mister Sinister"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009546",
+                "name": "Rogue"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010969",
+                "name": "Sabretooth (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010975",
+                "name": "Shadowcat (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010976",
+                "name": "Silver Samurai (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010979",
+                "name": "Storm (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009636",
+                "name": "Sunfire"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 14
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1994/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4614",
+                "name": "Cover #4614",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4615",
+                "name": "Interior #4615",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1994/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 1689,
+          "digitalId": 0,
+          "title": "Official Handbook of the Marvel Universe (2004) #10 (MARVEL KNIGHTS)",
+          "issueNumber": 10,
+          "variantDescription": "MARVEL KNIGHTS",
+          "description": "",
+          "modified": "-0001-11-30T00:00:00-0500",
+          "isbn": "",
+          "upc": "5960605694-00111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 0,
+          "textObjects": [
+            {
+              "type": "issue_solicit_text",
+              "language": "en-us",
+              "text": "On the mean streets of the Marvel Universe, the kid gloves come off. Guardian devils, vengeance-seeking vigilantes and enigmatic assassins stalk the city's dark underbelly _ and the urban action unfolds with gritty intensity. The newest entry in Marvel's best-selling Handbook series, OHOTMUMK04 includes in-depth bios on a host of the House's edgiest icons - from Black Panther to Shang-Chi!"
+            }
+          ],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1689",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/1689/official_handbook_of_the_marvel_universe_2004_10_marvel_knights/marvel_knights?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/787",
+            "name": "Official Handbook of the Marvel Universe (2004)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2029-12-31T00:00:00-0500"
+            },
+            {
+              "type": "focDate",
+              "date": "-0001-11-30T00:00:00-0500"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/4bc64df4105b9",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/4bc64df4105b9",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 9,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1689/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/887",
+                "name": "Ronald Byrd",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/902",
+                "name": "Jeff Christiansen",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/903",
+                "name": "Anthony Flamini",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/888",
+                "name": "Michael Hoskin",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/897",
+                "name": "Sean Mcquaid",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/394",
+                "name": "Eric J. Moreels",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/900",
+                "name": "Barry Reese",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/896",
+                "name": "Stuart Vandal",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/490",
+                "name": "Pat Lee",
+                "role": "penciller (cover)"
+              }
+            ],
+            "returned": 9
+          },
+          "characters": {
+            "available": 14,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1689/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009156",
+                "name": "Apocalypse"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009197",
+                "name": "Blink"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009243",
+                "name": "Colossus"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009313",
+                "name": "Gambit"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009349",
+                "name": "Holocaust (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009417",
+                "name": "Magneto"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009447",
+                "name": "Mister Sinister"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009546",
+                "name": "Rogue"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010969",
+                "name": "Sabretooth (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010975",
+                "name": "Shadowcat (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010976",
+                "name": "Silver Samurai (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010979",
+                "name": "Storm (Age of Apocalypse)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009636",
+                "name": "Sunfire"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 14
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1689/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4612",
+                "name": "Cover #4612",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/4613",
+                "name": "Interior #4613",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/1689/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 119543,
+          "digitalId": 0,
+          "title": "Deadpool Team-Up (2024) #1",
+          "issueNumber": 1,
+          "variantDescription": "",
+          "description": "WOLVERINE! CRYSTAR! MAJOR X! GHOST-SPIDER! HULK! ROB LIEFELD RETURNS TO DEADPOOL WITH THE ULTIMATE TEAM-UP BOOK! When you need some hired hands, DEADPOOL is your man!  But when the Merc with a Mouth needs assistance, he's got friends (and frenemies) from across the Marvel Universe! Rob Liefeld weaves an epic tale bringing Wade Wilson together with MAJOR X, CRYSTAR, GHOST-SPIDER, WOLVERINE and the INCREDIBLE HULK for the first time, as the return of a LOST MARVEL COMICS CHARACTER necessitates the ultimate team-up mission!",
+          "modified": "2024-06-28T11:12:20-0400",
+          "isbn": "",
+          "upc": "75960621003900111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/119543",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/119543/deadpool_team-up_2024_1?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/41744",
+            "name": "Deadpool Team-Up (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-08-28T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-07-15T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/664ccf043df55",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/664ccf043df55",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119543/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/571",
+                "name": "Rob Liefeld",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+                "name": "Vc Joe Sabino",
+                "role": "letterer"
+              }
+            ],
+            "returned": 3
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119543/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                "name": "Deadpool"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+                "name": "Hulk"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017603",
+                "name": "Spider-Gwen (Gwen Stacy)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119543/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/260311",
+                "name": "cover from Deadpool Team-Up (2024) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/260312",
+                "name": "story from Deadpool Team-Up (2024) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119543/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 118952,
+          "digitalId": 0,
+          "title": "Wolverine: Revenge (2024) #1",
+          "issueNumber": 1,
+          "variantDescription": "",
+          "description": "HICKMAN AND CAPULLO JOIN FORCES FOR A WOLVERINE EPIC LIKE NO OTHER! Greg Capullo makes his grand return to Marvel Comics storytelling as he and Jonathan Hickman pit WOLVERINE against a cadre of foes who will turn his world upside down! He's been beaten! He's been bloodied!  And LOGAN only has one thought on his mind: REVENGE! Don't miss this prestige miniseries, set to become one of the defining tales in Wolverine's storied legend!",
+          "modified": "2024-06-28T11:03:20-0400",
+          "isbn": "",
+          "upc": "75960620995800111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/118952",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/118952/wolverine_revenge_2024_1?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/41698",
+            "name": "Wolverine: Revenge (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-08-21T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-07-08T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/20/664cceb32d5b4",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/20/664cceb32d5b4",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118952/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/379",
+                "name": "Greg Capullo",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/11743",
+                "name": "Jonathan Hickman",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                "name": "Vc Cory Petit",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13497",
+                "name": "Fco Plascencia",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/427",
+                "name": "Tim Townsend",
+                "role": "inker (cover)"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118952/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118952/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/259128",
+                "name": "cover from Wolverine: Revenge (2024) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/259129",
+                "name": "story from Wolverine: Revenge (2024) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118952/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 118648,
+          "digitalId": 0,
+          "title": "WOLVERINE ANNUAL #1 [IW] (2024) #1",
+          "issueNumber": 1,
+          "variantDescription": "",
+          "description": "\"INFINITY WATCH\" PART FIVE! WOLVERINE vs. INFINITY WATCH, and the whole world hangs in the balance! Logan's efforts to rescue a community from destruction are upended when the new Infinity Watch crashes into town! The claws come out to protect the innocents, but can even adamantium withstand the raw power of the INFINITY STONES? The best there is must summon the best he's got to survive! PLUS: Derek Landy and Sara Pichelli bring NICK FURY's investigation to a head as he closes in on the Death Stone bearer!",
+          "modified": "2024-06-28T10:27:45-0400",
+          "isbn": "",
+          "upc": "75960620974300111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/118648",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/118648/wolverine_annual_1_iw_2024_1?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/41612",
+            "name": "WOLVERINE ANNUAL #1 [IW] (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-08-14T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-07-15T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/664cceb2583b0",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/664cceb2583b0",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 10,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118648/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14574",
+                "name": "Andrew Baumgartner",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12448",
+                "name": "Yildiray Cinar",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/9408",
+                "name": "Sara Pichelli",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                "name": "Frank D'ARMATA",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14660",
+                "name": "Ezra Daniels",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12861",
+                "name": "Derek Landy",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12239",
+                "name": "Guru Efx",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                "name": "Vc Travis Lanham",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                "name": "Vc Cory Petit",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/11757",
+                "name": "Salvador Larroca",
+                "role": "penciler (cover)"
+              }
+            ],
+            "returned": 10
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118648/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118648/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/258520",
+                "name": "cover from Infinity Watch: TBD D (2024) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/258521",
+                "name": "story from Infinity Watch: TBD D (2024) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118648/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 116150,
+          "digitalId": 0,
+          "title": "Hellverine (2024) #4",
+          "issueNumber": 4,
+          "variantDescription": "",
+          "description": "HELLVERINE VS. WOLVERINE! BAGRA-GHUL has come for LOGAN's soul, but when the heat is on, who will survive - the HELLVERINE or the WOLVERINE?",
+          "modified": "2024-06-28T10:08:52-0400",
+          "isbn": "",
+          "upc": "75960620950700411",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/116150",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/116150/hellverine_2024_4?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/39605",
+            "name": "Hellverine (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-08-14T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-07-15T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/664ccf27907c0",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/664ccf27907c0",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 8,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/116150/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                "name": "Frank D'ARMATA",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/872",
+                "name": "Marte Gracia",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                "name": "Vc Travis Lanham",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13260",
+                "name": "Jp Mayer",
+                "role": "inker (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14313",
+                "name": "Julius Ohta",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13614",
+                "name": "Benjamin Percy",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1156",
+                "name": "Ryan Stegman",
+                "role": "penciler (cover)"
+              }
+            ],
+            "returned": 8
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/116150/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/116150/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/253523",
+                "name": "cover from Hellverine (2024) #4",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/253524",
+                "name": "story from Hellverine (2024) #4",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/116150/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 115380,
+          "digitalId": 68016,
+          "title": "Uncanny X-Men (2024) #1",
+          "issueNumber": 1,
+          "variantDescription": "",
+          "description": "PROFESSOR X...IS GONE! A core group of essential X-Men rise FROM THE ASHES to face a world without a home - and without Professor X! All bonds among the mutant community seem to be slipping away, and ROGUE reluctantly finds herself as the hero designated to bring them back together...but a fearless, malignant power is out there hunting mutants, and it has a terrible secret that may destroy what remains of the X-Men!",
+          "modified": "2024-06-27T15:59:37-0400",
+          "isbn": "",
+          "upc": "759606209171000111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 40,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/115380",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/115380/uncanny_x-men_2024_1?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Uncanny-X-Men-1/digital-comic/68016?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=68016&utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/39425",
+            "name": "Uncanny X-Men (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-08-07T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-07-08T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2024-07-24T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2024-07-24T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 5.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/66a7f4f08bb03",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/66a7f4f08bb03",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 5,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/115380/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
+                "name": "Tom Brevoort",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10172",
+                "name": "Vc Clayton Cowles",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/11610",
+                "name": "David Marquez",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
+                "name": "Gail Simone",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+                "name": "Matthew Wilson",
+                "role": "colorist (cover)"
+              }
+            ],
+            "returned": 5
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/115380/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009313",
+                "name": "Gambit"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009381",
+                "name": "Jubilee"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+                "name": "X-Men"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/115380/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/251980",
+                "name": "cover from Uncanny X-Men (2024) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/251981",
+                "name": "story from Uncanny X-Men (2024) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/115380/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 118948,
+          "digitalId": 68028,
+          "title": "Wolverine: Deep Cut (2024) #2",
+          "issueNumber": 2,
+          "variantDescription": "",
+          "description": "LOGAN VS. THE MARAUDERS! WOLVERINE got the scent from SABRETOOTH's attack last issue, and it's led him back to some old enemies: THE MARAUDERS! But if LOGAN can survive against RIPTIDE, VERTIGO, SCRAMBLER, BLOCKBUSTER, PRISM and the rest, he will have to face a darker SECRET that will cut them all to the bone! At last - Chris Claremont reveals Wolverine's never-before-told mission before UNCANNY X-MEN #251 in this all-new series!",
+          "modified": "2024-06-27T16:04:49-0400",
+          "isbn": "",
+          "upc": "75960620994100211",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/118948",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/118948/wolverine_deep_cut_2024_2?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Wolverine-Deep-Cut-2/digital-comic/68028?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=68028&utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/41697",
+            "name": "Wolverine: Deep Cut (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-08-07T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-07-08T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2024-07-24T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2024-07-24T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/a0/66a7f4f938089",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/a0/66a7f4f938089",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118948/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14081",
+                "name": "Sebastian Cheng",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/44",
+                "name": "Chris Claremont",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/3708",
+                "name": "Carlos Lopez",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                "name": "Vc Cory Petit",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13063",
+                "name": "Edgar Salazar",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/489",
+                "name": "Philip Tan",
+                "role": "penciler (cover)"
+              }
+            ],
+            "returned": 7
+          },
+          "characters": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118948/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009424",
+                "name": "Marauders"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009554",
+                "name": "Sabretooth"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 3
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118948/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/259120",
+                "name": "cover from Wolverine: Outback (2024) #2",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/259121",
+                "name": "story from Wolverine: Outback (2024) #2",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118948/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 114284,
+          "digitalId": 67887,
+          "title": "Wolverine: Blood Hunt (2024) #4",
+          "issueNumber": 4,
+          "variantDescription": "",
+          "description": "WOLVERINE: LORD OF THE VAMPIRES?! BETRAYAL lands WOLVERINE in a precarious spot - under the vampiric thrall of his enemies! With his healing factor stunted and the apex of the renegade vampire scheme at hand, ALYSSA takes her place as QUEEN OF THE VAMPIRES - with LOGAN as her king! The shocking finale to WOLVERINE: BLOOD HUNT…might just be the BEGINNING!",
+          "modified": "2024-07-08T12:29:29-0400",
+          "isbn": "",
+          "upc": "75960620874600411",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/114284",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/114284/wolverine_blood_hunt_2024_4?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Wolverine-Blood-Hunt-4/digital-comic/67887?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=67887&utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/39166",
+            "name": "Wolverine: Blood Hunt (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-07-24T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-06-24T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2024-07-14T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2024-07-14T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/66a7f549d2aaf",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/66a7f549d2aaf",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114284/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12239",
+                "name": "Guru Efx",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14443",
+                "name": "Ben Harvey",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                "name": "Vc Cory Petit",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10344",
+                "name": "Juan Jose Ryp",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14604",
+                "name": "Thomas Waltz",
+                "role": "writer"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114284/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114284/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/249788",
+                "name": "cover from Wolverine: Blood Hunt (2024) #4",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/249789",
+                "name": "story from Wolverine: Blood Hunt (2024) #4",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114284/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 108486,
+          "digitalId": 67838,
+          "title": "Deadpool & Wolverine: Wwiii (2024) #3",
+          "issueNumber": 3,
+          "variantDescription": "",
+          "description": "WADE AND LOGAN'S ALL-OUT WAR CONCLUDES! WWIII has emerged. WOLVERINE is tested beyond his limits. DEADPOOL is…no more?! Discover how this drastic showdown figures into the DELTA's plans. And with THOSE WHO WATCH counting on unending bloodshed, whose will be the last blood to spill? The epic finale to the Deadpool and Wolverine doubleheader that'll be the talk of the summer!",
+          "modified": "2024-07-05T18:00:02-0400",
+          "isbn": "",
+          "upc": "75960620648300311",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 40,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/108486",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/108486/deadpool_wolverine_wwiii_2024_3?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Deadpool-Wolverine-Wwiii-3/digital-comic/67838?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=67838&utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/37288",
+            "name": "Deadpool & Wolverine: Wwiii (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-07-24T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-06-24T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2024-07-14T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2024-07-24T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/66a7f57172b1b",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/66a7f57172b1b",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 5,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/108486/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2428",
+                "name": "Joe Kelly",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2879",
+                "name": "Adam Kubert",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4991",
+                "name": "Frank Martin",
+                "role": "colorist (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
+                "name": "Vc Joe Sabino",
+                "role": "letterer"
+              }
+            ],
+            "returned": 5
+          },
+          "characters": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/108486/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                "name": "Deadpool"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/108486/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/238086",
+                "name": "cover from Deadpool & Wolverine: Wwiii (2024) #3",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/238087",
+                "name": "story from Deadpool & Wolverine: Wwiii (2024) #3",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/108486/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 118751,
+          "digitalId": 0,
+          "title": "WOLVERINE #88 FACSIMILE EDITION (2024) #88",
+          "issueNumber": 88,
+          "variantDescription": "",
+          "description": "The first comic-book meeting of Wolverine and Deadpool! And when Logan meets Wade Wilson, they don't waste time on introductions before they get right down to the business of trying to kill each other! But as Deadpool and Wolverine test their respective healing factors to their limits, they're not the only players on this stage: Garrison \"Weapon X\" Kane and Wade's ex-girlfriend Copycat are trying to have a normal life together, which includes joining a theater troupe! And as Deadpool enters stage right looking to exact painful revenge on Kane, Logan will have to act fast to save him! It's one of the all-time great Marvel comic books, boldly re-presented in its original form, ads and all!",
+          "modified": "2024-07-08T12:18:25-0400",
+          "isbn": "",
+          "upc": "75960620990308811",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/118751",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/118751/wolverine_88_facsimile_edition_2024_88?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/41655",
+            "name": "WOLVERINE #88 FACSIMILE EDITION (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-07-24T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-06-10T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/66a7f544e5dd2",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/66a7f544e5dd2",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 8,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118751/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/3626",
+                "name": "Pat Brosseau",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/440",
+                "name": "Mark Farmer",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/427",
+                "name": "Tim Townsend",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/42",
+                "name": "Larry Hama",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13568",
+                "name": "Marie Javins",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2879",
+                "name": "Adam Kubert",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/2329",
+                "name": "Fabio Laguna",
+                "role": "penciler"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                "name": "Jeff Youngquist",
+                "role": "editor"
+              }
+            ],
+            "returned": 8
+          },
+          "characters": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118751/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                "name": "Deadpool"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118751/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/258726",
+                "name": "cover from Wolverine 88 Facsimile Edition (2024) #88",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/258727",
+                "name": "story from Wolverine 88 Facsimile Edition (2024) #88",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/118751/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 110368,
+          "digitalId": 67833,
+          "title": "Captain America (2023) #11",
+          "issueNumber": 11,
+          "variantDescription": "",
+          "description": "Steve Rogers finds the last change agent, someone who can change the direction of the world forever...by dying. And as Steve wrestles with the morality of his task, a member of his inner circle is moving to betray him... PLUS: PART 2 OF DEADPOOL/WOLVERINE: WEAPON X-TRACTION!",
+          "modified": "2024-07-08T11:03:23-0400",
+          "isbn": "",
+          "upc": "75960620740401111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/110368",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/110368/captain_america_2023_11?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Captain-America-11/digital-comic/67833?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=67833&utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/37724",
+            "name": "Captain America (2023 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-07-24T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-06-24T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2024-07-14T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2024-07-24T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/66a7f57aa1906",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/66a7f57aa1906",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/110368/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14111",
+                "name": "Taurin Clarke",
+                "role": "painter (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/507",
+                "name": "Matt Hollingsworth",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12551",
+                "name": "Jesus Saiz",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13046",
+                "name": "Alanna Smith",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4",
+                "name": "J. Michael Straczynski",
+                "role": "writer"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/110368/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                "name": "Captain America"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                "name": "Deadpool"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 3
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/110368/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/241865",
+                "name": "cover from Captain America (2023) #11",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/241866",
+                "name": "story from Captain America (2023) #11",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/110368/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 114283,
+          "digitalId": 67886,
+          "title": "Wolverine: Blood Hunt (2024) #3",
+          "issueNumber": 3,
+          "variantDescription": "",
+          "description": "IN TOO DEEP! WOLVERINE and NIGHTGUARD have made it to the heart of the vampire base. But if they can fight through the aquatic AQUEOS VAMPIRES, what untold horrors await in the caverns above?! Tom Waltz's debut Marvel series continues as he and Juan José Ryp bring LOGAN on his long journey into darkness…against OLD FRIENDS and NEW ENEMIES!",
+          "modified": "2024-06-07T13:44:48-0400",
+          "isbn": "",
+          "upc": "75960620874600311",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 32,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/114283",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/114283/wolverine_blood_hunt_2024_3?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/Wolverine-Blood-Hunt-3/digital-comic/67886?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=67886&utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/39166",
+            "name": "Wolverine: Blood Hunt (2024 - Present)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-07-10T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-06-10T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2024-06-27T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2024-06-27T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 3.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/b0/66a7f5df79980",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/b0/66a7f5df79980",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114283/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12239",
+                "name": "Guru Efx",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14443",
+                "name": "Ben Harvey",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                "name": "Vc Cory Petit",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/10344",
+                "name": "Juan Jose Ryp",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/14604",
+                "name": "Thomas Waltz",
+                "role": "writer"
+              }
+            ],
+            "returned": 6
+          },
+          "characters": {
+            "available": 1,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114283/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 1
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114283/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/249786",
+                "name": "cover from Wolverine: Blood Hunt (2024) #3",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/249787",
+                "name": "story from Wolverine: Blood Hunt (2024) #3",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/114283/events",
+            "items": [],
+            "returned": 0
+          }
+        },
+        {
+          "id": 119484,
+          "digitalId": 67872,
+          "title": "THE LIFE OF WOLVERINE (2024) #1",
+          "issueNumber": 1,
+          "variantDescription": "",
+          "description": "LOGAN'S LIFE STORY - IN CHRONOLOGICAL ORDER FOR THE FIRST TIME! WOLVERINE has been mindwiped, manipulated and given false memories so many times, what is the truth of his long life? Now, as a journey into his own past becomes paramount to the survival of mutantkind, delve into the TRUE story of LOGAN's life, from his earliest days in the late 1800s, to the many wars he's fought alongside comrades like CAPTAIN AMERICA and SABRETOOTH, to the WEAPON X procedures that changed his life forever, his days on the X-MEN and more! All IN CONTINUITY, this includes some adventures and links to the past never before revealed, giving the most complete picture of WOLVERINE's history EVER ASSEMBLED!  In print for the first time!",
+          "modified": "2024-06-07T13:29:39-0400",
+          "isbn": "",
+          "upc": "759606210061000111",
+          "diamondCode": "",
+          "ean": "",
+          "issn": "",
+          "format": "Comic",
+          "pageCount": 40,
+          "textObjects": [],
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/119484",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/issue/119484/the_life_of_wolverine_2024_1?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "purchase",
+              "url": "http://comicstore.marvel.com/THE-LIFE-OF-WOLVERINE-1/digital-comic/67872?utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            },
+            {
+              "type": "reader",
+              "url": "http://marvel.com/digitalcomics/view.htm?iid=67872&utm_campaign=apiRef&utm_source=3f6e165dc830562f34344e56b94a217c"
+            }
+          ],
+          "series": {
+            "resourceURI": "http://gateway.marvel.com/v1/public/series/41734",
+            "name": "THE LIFE OF WOLVERINE (2024)"
+          },
+          "variants": [],
+          "collections": [],
+          "collectedIssues": [],
+          "dates": [
+            {
+              "type": "onsaleDate",
+              "date": "2024-07-03T00:00:00-0400"
+            },
+            {
+              "type": "focDate",
+              "date": "2024-06-03T00:00:00-0400"
+            },
+            {
+              "type": "unlimitedDate",
+              "date": "2024-06-25T00:00:00-0400"
+            },
+            {
+              "type": "digitalPurchaseDate",
+              "date": "2024-06-25T00:00:00-0400"
+            }
+          ],
+          "prices": [
+            {
+              "type": "printPrice",
+              "price": 4.99
+            }
+          ],
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/f0/66797544f0aeb",
+            "extension": "jpg"
+          },
+          "images": [
+            {
+              "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/f0/66797544f0aeb",
+              "extension": "jpg"
+            }
+          ],
+          "creators": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119484/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
+                "name": "Mark Basso",
+                "role": "editor"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
+                "name": "Ron Lim",
+                "role": "penciler (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/13052",
+                "name": "Israel Silva",
+                "role": "colorist (cover)"
+              }
+            ],
+            "returned": 3
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119484/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009447",
+                "name": "Mister Sinister"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009554",
+                "name": "Sabretooth"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009726",
+                "name": "X-Men"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119484/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/260193",
+                "name": "cover from new series (2024) #1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/260194",
+                "name": "story from new series (2024) #1",
+                "type": "interiorStory"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/comics/119484/events",
+            "items": [],
+            "returned": 0
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,39 @@
+/* styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #FFFFFF;
+  --background-color: #020617;
+  --muted-foreground: #94A3B8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #FFFFFF;
+    --background-color: #020617;
+  }
+}
+
+body {
+  color:var(--foreground);
+  background-color: var(--background-color);
+  font: Inter;
+}
+
+input::placeholder {
+  color:var(--muted-foreground);
+}
+
+@media (max-width: 640px) {
+  .xs\:w-fill-a {
+    width: -webkit-fill-available;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
