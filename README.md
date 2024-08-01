@@ -34,6 +34,8 @@
 </p>
 
 # Projeto
+(Em desenvolvimento)
+
 Este projeto é uma aplicação Next.js que lista e detalha personagens de quadrinhos da Marvel, utilizando a API da Marvel. A aplicação permite buscar personagens, visualizar detalhes, e exibir histórias em quadrinhos, eventos e séries relacionadas.
 
 ## Tecnologias
