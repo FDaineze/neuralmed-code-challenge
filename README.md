@@ -67,15 +67,10 @@ cd neuralmed-code-challenge
 
 2. Instale as Dependências
 
-Com o npm:
-
 ```bash
+# Com o npm:
 npm install
-```
-
-Ou com o yarn:
-
-```bash
+# Ou com o yarn:
 yarn install
 ```
 
@@ -83,7 +78,7 @@ yarn install
 
 Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis de ambiente:
 
-```env
+```bash
 # Consulte suas keys em: https://developer.marvel.com/account
 # Sua chave pública
 NEXT_PUBLIC_API_KEY=
@@ -95,15 +90,10 @@ NEXT_PUBLIC_PRIVATE_KEY=
 
 Para iniciar o servidor de desenvolvimento, execute:
 
-Com o npm:
-
 ```bash
+# Com o npm:
 npm run dev
-```
-
-Ou com o yarn:
-
-```bash
+# Ou com o yarn:
 yarn dev
 ```
 
@@ -113,15 +103,10 @@ A aplicação estará disponível em http://localhost:3000.
 
 Para rodar os testes unitários, use:
 
-Com o npm:
-
 ```bash
+# Com o npm:
 npm test
-```
-
-Ou com o yarn:
-
-```bash
+# Ou com o yarn:
 yarn test
 ```
 
