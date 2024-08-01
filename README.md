@@ -12,21 +12,24 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/azagatti/template-react-typescript?style=plastic">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/azagatti/template-react-typescript?style=plastic">
-  <img alt="Repo size" src="https://img.shields.io/github/repo-size/azagatti/template-react-typescript?style=plastic">
-  <a href="https://github.com/AZagatti/template-react-typescript/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/azagatti/template-react-typescript?style=plastic">
+  <img 
+    alt="GitHub top language" 
+    src="https://img.shields.io/github/languages/top/fdaineze/neuralmed-code-challenge"
+  >
+  <img 
+    alt="GitHub language count" 
+    src="https://img.shields.io/github/languages/count/fdaineze/neuralmed-code-challenge"
+  >
+  <img 
+    alt="Repo size" 
+    src="https://img.shields.io/github/repo-size/fdaineze/neuralmed-code-challenge"
+  >
+  <a href="https://github.com/fdaineze/neuralmed-code-challenge/commits/master">
+    <img 
+      alt="GitHub last commit" 
+      src="https://img.shields.io/github/last-commit/fdaineze/neuralmed-code-challenge"
+    >
   </a>
-  <a href="https://github.com/AZagatti/template-react-typescript/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/azagatti/template-react-typescript?style=plastic">
-  </a>
-  <a href="https://github.com/AZagatti/template-react-typescript/pulls">
-    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/azagatti/template-react-typescript?style=plastic">
-  </a>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-red" alt="shield" />
 </p>
 
@@ -56,7 +59,7 @@ Crie um arquivo .env e siga o modelo do arquivo .env.exemple. Para obter seus ch
 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/-/neuralmed-code-challenge
+git clone https://github.com/FDaineze/neuralmed-code-challenge
 cd neuralmed-code-challenge
 ```
 
