@@ -34,7 +34,7 @@
   <a href="https://app.netlify.com/sites/daineze-neuralmed-code-challenge/deploys">
     <img 
       alt="Deploy Status" 
-      src="https://api.netlify.com/api/v1/badges/6d3b65b5-49d6-4de1-8d97-bb3108abb55d/deploy-status"
+      src="https://api.netlify.com/api/v1/badges/9d4bae89-5878-4956-b6c4-ca6b7c81c0b4/deploy-status"
     >
   </a>
 </p>
