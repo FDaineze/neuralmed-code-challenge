@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+// import Image from 'next/image';
 import { GetServerSideProps } from 'next';
 import {
     fetchMarvelCharacterById,
@@ -26,9 +27,9 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     const serverTs = Date.now().toString();
     const API_KEY = process.env.API_KEY!;
     const PRIVATE_KEY = process.env.PRIVATE_KEY!;
-    
+
     if (!API_KEY || !PRIVATE_KEY) {
-        throw new Error("API_KEY and PRIVATE_KEY must be defined in .env file");
+        throw new Error('API_KEY and PRIVATE_KEY must be defined in .env file');
     }
 
     const serverHash = generateHash(serverTs, PRIVATE_KEY, API_KEY);
@@ -107,7 +108,7 @@ const CharacterDetailsPage: React.FC<CharacterDetailsProps> = ({
         };
 
         fetchData();
-    }, [initialCharacter.id]);
+    }, [initialCharacter.id, serverTs, serverApiKey, serverHash]);
 
     return (
         <div className="mb-8">

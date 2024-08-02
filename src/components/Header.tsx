@@ -1,12 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
-
+// import Image from 'next/image';
 
 const Header: React.FC = () => {
   return (
     <header className="flex justify-between items-center p-4 px-8 border-b border-b-slate-700 text-white">
       <Link href="/">
-        <img src="/logo.svg" alt="Logo" className="h-10" />
+        <img
+          src="/logo.svg"
+          alt="Logo"
+          className="h-10"
+        />
       </Link>
 
       <div className="flex items-center space-x-4">

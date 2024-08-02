@@ -21,8 +21,8 @@ const SearchInput: React.FC<Props> = ({ onSearch }) => {
     return (
         <form onSubmit={handleSubmit} className="mb-4">
             <h2 className="p-8 text-2xl font-semibold max-sm:text-center">Busca de Personagens</h2>
-            <label className="px-8 pb-1 block max-sm:text-center">Nome do personagem</label>
-            <div className='border border-slate-700 rounded text-sm inline-flex items-center mx-8 xs:w-fill-a sm:min-w-96'>
+            <label htmlFor="character-name" className="px-8 pb-1 block max-sm:text-center">Nome do personagem</label>
+            <div id="character-name" className='border border-slate-700 rounded text-sm inline-flex items-center mx-8 xs:w-fill-a sm:min-w-96'>
                 <input
                     type="text"
                     value={query}

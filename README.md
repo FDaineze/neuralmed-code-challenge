@@ -8,7 +8,7 @@
   <a href="#como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#testes">Testes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#estrutura-do-projeto">Estrutura do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://google.com/">Demo</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://daineze-neuralmed-code-challenge.netlify.app/">Demo</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -31,11 +31,15 @@
     >
   </a>
   <img src="https://img.shields.io/badge/version-1.0.0-red" alt="shield" />
+  <a href="https://app.netlify.com/sites/daineze-neuralmed-code-challenge/deploys">
+    <img 
+      alt="Deploy Status" 
+      src="https://api.netlify.com/api/v1/badges/6d3b65b5-49d6-4de1-8d97-bb3108abb55d/deploy-status"
+    >
+  </a>
 </p>
 
 # Projeto
-(Em desenvolvimento)
-
 Este projeto é uma aplicação Next.js que lista e detalha personagens de quadrinhos da Marvel, utilizando a API da Marvel. A aplicação permite buscar personagens, visualizar detalhes, e exibir histórias em quadrinhos, eventos e séries relacionadas.
 
 > OBS: A api apresenta bastante lentidão, conforme é possível notar na [Página de teste de API Interativa](https://developer.marvel.com/docs)

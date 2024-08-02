@@ -33,7 +33,7 @@ const Home: React.FC<Props> = ({ initialCharacters, totalCount, serverTs, server
         };
 
         fetchData();
-    }, [search, currentPage]);
+    }, [search, currentPage, serverTs, serverApiKey, serverHash]);
 
     const handleSearch = (query: string) => {
         setSearch(query);
@@ -88,7 +88,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
     const PRIVATE_KEY = process.env.PRIVATE_KEY!;
         
     if (!API_KEY || !PRIVATE_KEY) {
-        throw new Error("API_KEY and PRIVATE_KEY must be defined in .env file");
+        throw new Error('API_KEY and PRIVATE_KEY must be defined in .env file');
     }
 
     const serverHash = generateHash(serverTs, PRIVATE_KEY, API_KEY);

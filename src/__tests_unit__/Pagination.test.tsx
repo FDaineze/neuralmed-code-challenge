@@ -9,7 +9,7 @@ window.scrollTo = vi.fn();
 describe('Pagination', () => {
     afterAll(() => {
         vi.clearAllMocks();
-    })
+    });
 
     const setup = (currentPage: number, totalItems: number, itemsPerPage: number) => {
         const handlePageChange = vi.fn();

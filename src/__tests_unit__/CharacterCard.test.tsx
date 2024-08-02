@@ -1,15 +1,16 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { useRouter } from 'next/router';
+import { useRouter, NextRouter } from 'next/router'; // Importa NextRouter
 import CharacterCard from '../components/CharacterCard';
 import { describe, it, expect, vi } from 'vitest';
 
+// Moca o useRouter e define o tipo NextRouter
 vi.mock('next/router', () => ({
   useRouter: vi.fn(),
 }));
 
 describe('CharacterCard Component', () => {
-  // Mock
+  // Mock de dados de personagem
   const character = {
     id: 1,
     name: 'Spider-Man',
@@ -46,7 +47,7 @@ describe('CharacterCard Component', () => {
     ]
   };
 
-  // Verificação de geração de imagem e titulo com base no character
+  // Verificação de renderização do personagem
   it('renders character data', () => {
     render(
       <table>
@@ -63,7 +64,8 @@ describe('CharacterCard Component', () => {
   // Verificação de navegação por clique
   it('navigates to character details on click', () => {
     const push = vi.fn();
-    (useRouter as any).mockReturnValue({ push });
+    const mockUseRouter = vi.mocked(useRouter); // Tipagem correta do mock
+    mockUseRouter.mockReturnValue({ push } as unknown as NextRouter); // Mock do retorno do useRouter
 
     render(
       <table>

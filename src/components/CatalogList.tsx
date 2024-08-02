@@ -1,4 +1,5 @@
 import React from 'react';
+// import Image from 'next/image';
 import { MarvelApiDetails, MarvelItem } from '../types/marvel';
 
 interface CatalogListProps {

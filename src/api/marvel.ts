@@ -42,6 +42,7 @@ export const fetchMarvelCharacters = async (
             totalCount: response.data.data.total,
         };
     } catch (error) {
+        console.error('%c'+error,'background:red; color:white;');
         throw new Error('Failed to fetch characters.');
     }
 };
@@ -67,6 +68,7 @@ export const fetchMarvelCharacterById = async (
 
         return response.data.data.results[0];
     } catch (error) {
+        console.error('%c'+error,'background:red; color:white;');
         throw new Error('Failed to fetch character.');
     }
 };
@@ -96,6 +98,7 @@ export const fetchMarvelItems = async (
             results: response.data.data.results as MarvelItem[],
         };
     } catch (error) {
+        console.error('%c'+error,'background:red; color:white;');
         throw new Error(`Failed to fetch ${endpoint}.`);
     }
 };
