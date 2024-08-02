@@ -238,3 +238,8 @@ Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de qu
 - ✅ Faça um README claro e intuitivo para auxiliar na inicialização do projeto
 - ✅ Utilize boas práticas de programação
 - ✅ Utilize boas práticas de organização de código
+
+## Pendências:
+- Verificar possibilidade de trocar \<img> para \<Image> sem que o design quebre
+- Realizar upload publico (netlify ou vercel)
+- Verificar porque netlify retorna 404
