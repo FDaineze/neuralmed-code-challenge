@@ -56,6 +56,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Pré-requisitos
 Antes de começar, você precisará ter o Node.js e o npm (ou yarn) instalados em seu ambiente. Você pode baixar o Node.js [aqui](https://nodejs.org/en).
 
+Recomendado o uso de NVM para garantir que o projeto está rodando na mesma versão Node, [você pode baixar aqui](https://github.com/coreybutler/nvm-windows#readme).
+
 Crie um arquivo .env e siga o modelo do arquivo .env.exemple. Para obter seus chaves da api, basta se cadastrar no site [Marvel Api](https://developer.marvel.com/) e logo após ir até a página [Conta](https://developer.marvel.com/account).
 
 ## Como Executar
@@ -102,6 +104,14 @@ yarn dev
 A aplicação estará disponível em http://localhost:3000.
 
 ## Testes
+
+Para garantir que está na mesma versão, use:
+
+```bash
+nvm use
+# Ou
+nvm use $(cat .nvmrc)
+```
 
 Para rodar os testes unitários, use:
 
