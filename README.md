@@ -205,7 +205,7 @@ Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de qu
 - ✅ Typescript
 - ✅ Tailwind
 - ✅ API da Marvel (Documentação)
-- ⚠️ Disponibilizar a aplicação em uma URL pública para avaliação
+- ✅ Disponibilizar a aplicação em uma URL pública para avaliação
 - ✅ Disponibilizar o código em um repositório público no Github
 - ✅ Seguir layout do design
 - ✅ Testes unitários usando vitest e react testing library
@@ -241,5 +241,3 @@ Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de qu
 
 ## Pendências:
 - Verificar possibilidade de trocar \<img> para \<Image> sem que o design quebre
-- Realizar upload publico (netlify ou vercel)
-- Verificar porque netlify retorna 404
