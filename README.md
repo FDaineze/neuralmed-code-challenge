@@ -51,7 +51,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Tailwind](https://github.com/tailwindlabs/tailwindcss)
 - [PostCSS](https://github.com/postcss/postcss)
 - [ESLint](https://github.com/eslint/eslint)
-- [Vitest](https://github.com/vitest-dev/vitest)
+- [Vitest](https://github.com/vitest-dev/vitest) (Teste Unitário)
+- [Playwright](https://github.com/microsoft/playwright) (Teste E2E)
 
 ## Pré-requisitos
 Antes de começar, você precisará ter o Node.js e o npm (ou yarn) instalados em seu ambiente. Você pode baixar o Node.js [aqui](https://nodejs.org/en).
@@ -122,14 +123,25 @@ npm run test
 yarn test
 ```
 
+Para rodar os testes E2E, use:
+
+```bash
+# Primeiro execute o servidor local
+npm run dev
+# Em outro terminal, rode o teste
+npm run test:e2e
+```
+
 ## Estrutura do Projeto
 ```
 marvel-app
 │
 ├── public/                     # Arquivos estáticos (imagens, ícones, etc.)
 │
-├── src/                        # Diretório principal do código fonte
-│   ├── __tests__/              # Arquivos de testes do vitest
+├── src/
+│   ├── __tests_e2e__/          # Arquivos de testes End to End (playwright)
+│   │
+│   ├── __tests_unit__/         # Arquivos de testes Unitários (vitest)
 │   │
 │   ├── pages/                  # Páginas do Next.js
 │   │   ├── _app.tsx            # Página de montagem do APP
@@ -166,6 +178,7 @@ marvel-app
 ├── .gitignore                  # Arquivo para ignorar arquivos do Git
 ├── next.config.js              # Configuração do Next.js
 ├── package.json                # Dependências e scripts do projeto
+├── playwright.config.ts        # Configuração do Playwright
 ├── postcss.config.mjs          # Configuração do PostCSS
 ├── tailwind.config.js          # Configuração do Tailwind CSS
 ├── tsconfig.json               # Configuração do TypeScript
@@ -213,7 +226,7 @@ Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de qu
 ## Bônus (Não Obrigatório):
 
 - ✅ Layout responsivo
-- ⚠️ Testes E2E com playwright ou cypress
+- ✅ Testes E2E com playwright ou cypress
 
 ## Dicas:
 
