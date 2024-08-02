@@ -38,6 +38,8 @@
 
 Este projeto é uma aplicação Next.js que lista e detalha personagens de quadrinhos da Marvel, utilizando a API da Marvel. A aplicação permite buscar personagens, visualizar detalhes, e exibir histórias em quadrinhos, eventos e séries relacionadas.
 
+> OBS: A api apresenta bastante lentidão, conforme é possível notar na [Página de teste de API Interativa](https://developer.marvel.com/docs)
+
 ## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -150,9 +152,8 @@ marvel-app
 │   └── utils/                  # Utilitários e funções auxiliares
 │       └── hash.ts             # Função para gerar hash MD5
 │
-├── .env                        # Arquivo de configuração para variáveis de ambiente
+├── .env.example                # Arquivo exemplo de configuração para variáveis de  (.env)
 ├── .gitignore                  # Arquivo para ignorar arquivos do Git
-├── next-env.d.ts               # Arquivo gerado automaticamente pelo Next.js
 ├── next.config.js              # Configuração do Next.js
 ├── package.json                # Dependências e scripts do projeto
 ├── postcss.config.mjs          # Configuração do PostCSS
@@ -165,9 +166,9 @@ marvel-app
 ## Contato
 Filipe Daineze - [@filipe.daineze](https://www.linkedin.com/in/filipe-daineze/)
 
-## Sobre o Teste:
+# Sobre o Teste:
 
-# Neuralmed Code Challenge
+## Neuralmed Code Challenge
 
 Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de quadrinho de acordo com o design fornecido.
 
@@ -210,5 +211,3 @@ Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de qu
 - ✅ Faça um README claro e intuitivo para auxiliar na inicialização do projeto
 - ✅ Utilize boas práticas de programação
 - ✅ Utilize boas práticas de organização de código
-
-Você terá até 7 dias para entregar o desafio.
