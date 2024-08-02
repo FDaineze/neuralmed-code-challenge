@@ -1,10 +1,15 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { describe, it, expect, vi, Mock } from 'vitest';
+import { describe, it, expect, vi, afterAll } from 'vitest';
 import Pagination from '../components/Pagination';
+
+window.scrollTo = vi.fn();
 
 // Verificação de geração de paginação correta e resposta de navegação
 describe('Pagination', () => {
+    afterAll(() => {
+        vi.clearAllMocks();
+    })
 
     const setup = (currentPage: number, totalItems: number, itemsPerPage: number) => {
         const handlePageChange = vi.fn();

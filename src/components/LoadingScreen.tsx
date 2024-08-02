@@ -2,7 +2,7 @@ import React from 'react';
 
 const LoadingScreen: React.FC = () => {
     return (
-        <div className="fixed inset-0 flex items-center justify-center bg-slate-950 bg-opacity-80 z-50">
+        <div id="loading" className="fixed inset-0 flex items-center justify-center bg-slate-950 bg-opacity-80 z-50">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 120 120"
