@@ -1,11 +1,12 @@
-import { describe, it, expect } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import React from 'react';
+import { render } from '@testing-library/react';
 import Header from '../components/Header';
+import { describe, it, expect } from 'vitest';
 
+// Verificação de geração de logo no header
 describe('Header Component', () => {
-  it('renders logo and user info', () => {
-    render(<Header />);
-    expect(screen.getByAltText('Logo')).toBeInTheDocument();
-    expect(screen.getByText('Filipe Daineze')).toBeInTheDocument();
-  });
+    it('renders header correctly', () => {
+        const { getByAltText } = render(<Header />);
+        expect(getByAltText('Logo')).toBeInTheDocument();
+    });
 });

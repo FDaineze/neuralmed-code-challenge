@@ -1,6 +1,6 @@
 export interface MarvelApiParams {
-    apikey: string;
     ts: string;
+    apikey: string;
     hash: string;
     limit: number;
     offset: number;

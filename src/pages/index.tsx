@@ -6,24 +6,28 @@ import Pagination from '../components/Pagination';
 import LoadingScreen from '../components/LoadingScreen';
 import { fetchMarvelCharacters } from '../api/marvel';
 import { Character } from '../types/marvel';
+import { generateHash } from '../utils/hash';
 
 interface Props {
     initialCharacters: Character[];
     totalCount: number;
+    serverTs: string;
+    serverApiKey: string;
+    serverHash: string;
 }
 
 const ITEMS_PER_PAGE: number = 10;
 
-const Home: React.FC<Props> = ({ initialCharacters, totalCount }) => {
+const Home: React.FC<Props> = ({ initialCharacters, totalCount, serverTs, serverApiKey, serverHash }) => {
     const [characters, setCharacters] = useState<Character[]>(initialCharacters);
     const [search, setSearch] = useState<string>('');
     const [currentPage, setCurrentPage] = useState<number>(1);
     const [loading, setLoading] = useState<boolean>(false);
-
+    
     useEffect(() => {
         const fetchData = async () => {
             setLoading(true);
-            const { data } = await fetchMarvelCharacters(search, currentPage, ITEMS_PER_PAGE);
+            const { data } = await fetchMarvelCharacters(search, currentPage, ITEMS_PER_PAGE, serverTs, serverApiKey, serverHash);
             setCharacters(data);
             setLoading(false);
         };
@@ -79,11 +83,25 @@ const Home: React.FC<Props> = ({ initialCharacters, totalCount }) => {
 };
 
 export const getServerSideProps: GetServerSideProps = async () => {
-    const { data, totalCount } = await fetchMarvelCharacters('', 1, ITEMS_PER_PAGE);
+    const serverTs = Date.now().toString();
+    const API_KEY = process.env.API_KEY!;
+    const PRIVATE_KEY = process.env.PRIVATE_KEY!;
+        
+    if (!API_KEY || !PRIVATE_KEY) {
+        throw new Error("API_KEY and PRIVATE_KEY must be defined in .env file");
+    }
+
+    const serverHash = generateHash(serverTs, PRIVATE_KEY, API_KEY);
+
+    const { data, totalCount } = await fetchMarvelCharacters('', 1, ITEMS_PER_PAGE, serverTs, API_KEY, serverHash);
+
     return {
         props: {
             initialCharacters: data,
             totalCount,
+            serverTs,
+            serverApiKey: API_KEY,
+            serverHash
         },
     };
 };

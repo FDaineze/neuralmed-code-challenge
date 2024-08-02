@@ -1,29 +1,26 @@
 import axios from 'axios';
 import { Character, MarvelApiResponse, MarvelApiDetails, MarvelItem } from '../types/marvel';
 import { MarvelApiParams } from '../types/api';
-import { generateHash } from '../utils/hash';
 
 const API_URL = 'https://gateway.marvel.com/v1/public/characters';
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
-const PRIVATE_KEY = process.env.NEXT_PUBLIC_PRIVATE_KEY;
 
-if (!API_KEY || !PRIVATE_KEY) {
-    throw new Error("API_KEY and PRIVATE_KEY must be defined in .env file");
-}
-
-export const fetchMarvelCharacters = async (name: string, page: number, itemsPerPage: number): Promise<{
+export const fetchMarvelCharacters = async (
+    name: string, 
+    page: number, 
+    itemsPerPage: number, 
+    serverTs: string,
+    serverApiKey: string, 
+    serverHash: string 
+): Promise<{
     data: Character[];
     totalCount: number;
 }> => {
-    const ts = Date.now().toString();
-    const hash = generateHash(ts, PRIVATE_KEY, API_KEY);
-
     const offset = (page - 1) * itemsPerPage;
 
     const params: MarvelApiParams = {
-        apikey: API_KEY,
-        ts,
-        hash,
+        ts: serverTs,
+        apikey: serverApiKey,
+        hash: serverHash,
         limit: itemsPerPage,
         offset,
     };
@@ -49,16 +46,19 @@ export const fetchMarvelCharacters = async (name: string, page: number, itemsPer
     }
 };
 
-export const fetchMarvelCharacterById = async (id: number): Promise<Character> => {
-    const ts = Date.now().toString();
-    const hash = generateHash(ts, PRIVATE_KEY, API_KEY);
-
+export const fetchMarvelCharacterById = async (
+    id: number, 
+    serverTs: string,
+    serverApiKey:string, 
+    serverHash:string
+): Promise<Character> => {
+    
     try {
         const response = await axios.get(`${API_URL}/${id}`, {
             params: {
-                apikey: API_KEY,
-                ts,
-                hash,
+                ts: serverTs,
+                apikey: serverApiKey,
+                hash: serverHash,
             },
             headers: {
                 'Accept': 'application/json',
@@ -71,16 +71,20 @@ export const fetchMarvelCharacterById = async (id: number): Promise<Character> =
     }
 };
 
-export const fetchMarvelItems = async (id: number, endpoint: string): Promise<MarvelApiDetails<MarvelItem>> => {
-    const ts = Date.now().toString();
-    const hash = generateHash(ts, PRIVATE_KEY, API_KEY);
-
+export const fetchMarvelItems = async (
+    id: number, 
+    endpoint: string,
+    serverTs: string,
+    serverApiKey: string,
+    serverHash: string
+): Promise<MarvelApiDetails<MarvelItem>> => {
+    
     try {
         const response = await axios.get(`${API_URL}/${id}/${endpoint}`, {
             params: {
-                apikey: API_KEY,
-                ts,
-                hash,
+                ts: serverTs,
+                apikey: serverApiKey,
+                hash: serverHash,
             },
             headers: {
                 'Accept': 'application/json',
@@ -96,6 +100,6 @@ export const fetchMarvelItems = async (id: number, endpoint: string): Promise<Ma
     }
 };
 
-export const fetchComicsByCharacterId = async (id: number) => fetchMarvelItems(id, 'comics');
-export const fetchEventsByCharacterId = async (id: number) => fetchMarvelItems(id, 'events');
-export const fetchSeriesByCharacterId = async (id: number) => fetchMarvelItems(id, 'series');
+export const fetchComicsByCharacterId = async (id: number, serverTs: string, serverApiKey: string, serverHash: string) => fetchMarvelItems(id, 'comics', serverTs, serverApiKey, serverHash);
+export const fetchEventsByCharacterId = async (id: number, serverTs: string, serverApiKey: string, serverHash: string) => fetchMarvelItems(id, 'events', serverTs, serverApiKey, serverHash);
+export const fetchSeriesByCharacterId = async (id: number, serverTs: string, serverApiKey: string, serverHash: string) => fetchMarvelItems(id, 'series', serverTs, serverApiKey, serverHash);

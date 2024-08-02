@@ -81,9 +81,9 @@ Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis de am
 ```bash
 # Consulte suas keys em: https://developer.marvel.com/account
 # Sua chave pública
-NEXT_PUBLIC_API_KEY=
+API_KEY=
 # Sua chave privada
-NEXT_PUBLIC_PRIVATE_KEY=
+PRIVATE_KEY=
 ```
 
 4. Rodar a Aplicação
@@ -105,7 +105,7 @@ Para rodar os testes unitários, use:
 
 ```bash
 # Com o npm:
-npm test
+npm run test
 # Ou com o yarn:
 yarn test
 ```
@@ -117,6 +117,8 @@ marvel-app
 ├── public/                     # Arquivos estáticos (imagens, ícones, etc.)
 │
 ├── src/                        # Diretório principal do código fonte
+│   ├── __tests__/              # Arquivos de testes do vitest
+│   │
 │   ├── pages/                  # Páginas do Next.js
 │   │   ├── _app.tsx            # Página de montagem do APP
 │   │   ├── 404.tsx             # Página para arquivos não encontrados (como id de char inválido)
@@ -176,9 +178,9 @@ Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de qu
 - ✅ Tailwind
 - ✅ API da Marvel (Documentação)
 - ⚠️ Disponibilizar a aplicação em uma URL pública para avaliação
-- ⚠️ Disponibilizar o código em um repositório público no Github
+- ✅ Disponibilizar o código em um repositório público no Github
 - ✅ Seguir layout do design
-- ⚠️ Testes unitários usando vitest e react testing library
+- ✅ Testes unitários usando vitest e react testing library
 - ✅ Configurar ferramentas para garantir a qualidade do código (ESLINT*, prettier, husky, lint-staged)
 - ✅ Não utilizar bibliotecas de UI como bootstrap, semantic-ui, antdesign, etc.
 
@@ -204,7 +206,7 @@ Objetivo: Desenvolver uma aplicação de listagem e detalhe de personagens de qu
 
 ## Dicas:
 
-- ⚠️ Valorizamos muito testes em nosso processo de desenvolvimento
+- ✅ Valorizamos muito testes em nosso processo de desenvolvimento
 - ✅ Faça um README claro e intuitivo para auxiliar na inicialização do projeto
 - ✅ Utilize boas práticas de programação
 - ✅ Utilize boas práticas de organização de código

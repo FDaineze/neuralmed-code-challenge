@@ -18,7 +18,7 @@ const CharacterCard: React.FC<Props> = ({ character }) => {
             onClick={handleRowClick}
         >
             <td className="border border-slate-700 sm:border-r-0">
-                <div className="flex items-center space-x-4 p-4 ">
+                <div className="flex items-center space-x-4 p-4">
                     <img
                         src={`${character.thumbnail.path}/standard_medium.${character.thumbnail.extension}`}
                         alt={character.name}

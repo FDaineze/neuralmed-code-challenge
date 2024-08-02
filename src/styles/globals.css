@@ -37,3 +37,5 @@ input::placeholder {
     text-wrap: balance;
   }
 }
+
+@import './loadingScreen.css';

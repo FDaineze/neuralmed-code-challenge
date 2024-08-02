@@ -1,50 +1,54 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, Mock } from 'vitest';
 import axios from 'axios';
-import { fetchMarvelCharacters, fetchMarvelCharacterById, fetchMarvelItems, fetchComicsByCharacterId, fetchEventsByCharacterId, fetchSeriesByCharacterId } from '../api/marvel';
-import mockData from '../api/mockCharacters.json';
-import mockComics from '../api/mockComics.json';
-import mockEvents from '../api/mockEvents.json';
-import mockSeries from '../api/mockSeries.json';
+import { fetchMarvelCharacters, fetchMarvelCharacterById, fetchMarvelItems } from '../api/marvel';
 
-// Mock axios
 vi.mock('axios');
-const mockedAxios = axios as jest.Mocked<typeof axios>;
 
-describe('Marvel API Functions', () => {
-  it('fetchMarvelCharacters returns mocked data if RETURN_MOCK_INFO is true', async () => {
-    process.env.NEXT_PUBLIC_RETURN_MOCK_INFO = 'true';
-    mockedAxios.get.mockResolvedValue({ data: mockData });
+interface MockedAxios {
+  get: Mock;
+}
 
-    const result = await fetchMarvelCharacters('Spider', 1, 10);
-    expect(result.data).toEqual(mockData.data.results);
-    expect(result.totalCount).toBe(mockData.data.total);
+const mockedAxios = axios as unknown as MockedAxios;
+
+const ts = Date.now().toString();
+const serverApiKey = 'fakeApiKey';
+const serverHash = 'fakeHash';
+
+// Verificação de chamadas da API
+describe('Marvel API', () => {
+  it('fetchMarvelCharacters should return characters data', async () => {
+    const mockedResponse = { data: { data: { results: [], total: 0 } } };
+    mockedAxios.get.mockResolvedValue(mockedResponse);
+
+    const response = await fetchMarvelCharacters('spider', 1, 10, ts, serverApiKey, serverHash);
+    expect(response.data).toEqual([]);
+    expect(response.totalCount).toBe(0);
   });
 
-  it('fetchMarvelCharacterById returns mocked data if RETURN_MOCK_INFO is true', async () => {
-    process.env.NEXT_PUBLIC_RETURN_MOCK_INFO = 'true';
-    mockedAxios.get.mockResolvedValue({ data: mockData });
+  it('fetchMarvelCharacterById should return a character', async () => {
+    const mockedResponse = { data: { data: { results: [{ id: 1 }] } } };
+    mockedAxios.get.mockResolvedValue(mockedResponse);
 
-    const result = await fetchMarvelCharacterById(1);
-    expect(result).toEqual(mockData.data.results.find(character => character.id === 1));
+    const response = await fetchMarvelCharacterById(1, ts, serverApiKey, serverHash);
+    expect(response.id).toBe(1);
   });
 
-  it('fetchMarvelItems returns mocked data if RETURN_MOCK_INFO is true for comics', async () => {
-    process.env.NEXT_PUBLIC_RETURN_MOCK_INFO = 'true';
-    mockedAxios.get.mockResolvedValue({ data: mockComics });
+  it('fetchMarvelItems should return items data', async () => {
+    const mockedResponse = { data: { data: { results: [], total: 0 } } };
+    mockedAxios.get.mockResolvedValue(mockedResponse);
 
-    const result = await fetchMarvelItems(1, 'comics');
-    expect(result.results).toEqual(mockComics.data.results);
-    expect(result.total).toBe(mockComics.data.total);
+    const response = await fetchMarvelItems(1, 'comics', ts, serverApiKey, serverHash);
+    expect(response.results).toEqual([]);
+    expect(response.total).toBe(0);
   });
 
-  // Similar tests for events and series...
+  it('should handle API errors', async () => {
+    mockedAxios.get.mockRejectedValue(new Error('Failed to fetch'));
 
-  it('fetchMarvelCharacters handles API errors', async () => {
-    process.env.NEXT_PUBLIC_RETURN_MOCK_INFO = 'false';
-    mockedAxios.get.mockRejectedValue(new Error('API Error'));
-
-    await expect(fetchMarvelCharacters('Spider', 1, 10)).rejects.toThrow('Failed to fetch characters.');
+    await expect(fetchMarvelCharacters('spider', 1, 10, ts, serverApiKey, serverHash)).rejects.toThrow('Failed to fetch characters.');
+    await expect(fetchMarvelCharacterById(1, ts, serverApiKey, serverHash)).rejects.toThrow('Failed to fetch character.');
+    await expect(fetchMarvelItems(1, 'comics', ts, serverApiKey, serverHash)).rejects.toThrow('Failed to fetch comics.');
+    await expect(fetchMarvelItems(1, 'series', ts, serverApiKey, serverHash)).rejects.toThrow('Failed to fetch series.');
+    await expect(fetchMarvelItems(1, 'events', ts, serverApiKey, serverHash)).rejects.toThrow('Failed to fetch events.');
   });
-
-  // Similar tests for fetchMarvelCharacterById, fetchMarvelItems...
 });

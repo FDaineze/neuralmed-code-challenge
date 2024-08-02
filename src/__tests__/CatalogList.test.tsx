@@ -1,29 +1,30 @@
-import { describe, it, expect } from 'vitest';
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import CatalogList from '../components/CatalogList';
-import { MarvelApiDetails, MarvelItem } from '../types/marvel';
+import { describe, it, expect } from 'vitest';
 
-const mockItems: MarvelApiDetails<MarvelItem> = {
-  total: 1,
-  results: [
-    {
-      id: 1,
-      title: 'Mock Comic',
-      description: 'A description of the mock comic',
-      thumbnail: { path: 'path/to/image', extension: 'jpg' },
-    }
-  ],
-};
-
+// Verificação de geração de Titulo, descrição e faz o teste de renderização de lista
 describe('CatalogList Component', () => {
-  it('renders title and items', () => {
-    render(<CatalogList title="Comics" items={mockItems} emptyMessage="No items available." />);
-    expect(screen.getByText('Comics')).toBeInTheDocument();
-    expect(screen.getByText('Mock Comic')).toBeInTheDocument();
-  });
+    it('renders the title', () => {
+        render(<CatalogList title="Test Title" items={null} emptyMessage="No items" />);
+        expect(screen.getByText('Test Title')).toBeInTheDocument();
+    });
 
-  it('renders empty message if no items', () => {
-    render(<CatalogList title="Comics" items={null} emptyMessage="No items available." />);
-    expect(screen.getByText('No items available.')).toBeInTheDocument();
-  });
+    it('renders empty message when no items', () => {
+        render(<CatalogList title="Test Title" items={null} emptyMessage="No items" />);
+        expect(screen.getByText('No items')).toBeInTheDocument();
+    });
+
+    it('renders list of items', () => {
+        const items = {
+            total: 2,
+            results: [
+                { id: 1, title: 'Item 1', thumbnail: { path: 'path', extension: 'jpg' }, description: 'Description 1' },
+                { id: 2, title: 'Item 2', thumbnail: { path: 'path', extension: 'jpg' }, description: 'Description 2' },
+            ],
+        };
+        render(<CatalogList title="Test Title" items={items} emptyMessage="No items" />);
+        expect(screen.getByText('Item 1')).toBeInTheDocument();
+        expect(screen.getByText('Item 2')).toBeInTheDocument();
+    });
 });

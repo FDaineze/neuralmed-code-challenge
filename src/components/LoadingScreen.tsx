@@ -18,38 +18,6 @@ const LoadingScreen: React.FC = () => {
                 <path id="america2" className="path-animation" d="M60,15.6c-24.5,0-44.4,19.9-44.4,44.4c0,24.5,19.9,44.4,44.4,44.4s44.4-19.9,44.4-44.4C104.4,35.5,84.5,15.6,60,15.6z M60,97.5c-20.7,0-37.5-16.8-37.5-37.5S39.3,22.5,60,22.5S97.5,39.3,97.5,60S80.7,97.5,60,97.5z" />
                 <path id="america3" className="path-animation" d="M60,22.9l8.4,25.8l27.1,0L73.6,64.6l8.4,25.8L60,74.4L38.1,90.4l8.4-25.8L24.5,48.7l27.1,0L60,22.9z" />
             </svg>
-            <style jsx>{`
-                .path-animation {
-                    stroke: #fff;
-                    stroke-width: 2;
-                    fill: none;
-                    stroke-dasharray: 1000;
-                    stroke-dashoffset: 1000;
-                    animation: draw 6s infinite;
-                }
-
-                .path-animation:nth-child(1) { animation-delay: 0s; }
-                .path-animation:nth-child(2) { animation-delay: 0s; }
-                .path-animation:nth-child(3) { animation-delay: 0s; }
-
-                .path-animation:nth-child(4) { animation-delay: 2s; }
-                .path-animation:nth-child(5) { animation-delay: 2s; }
-                .path-animation:nth-child(6) { animation-delay: 2s; }
-
-                .path-animation:nth-child(7) { animation-delay: 4s; }
-                .path-animation:nth-child(8) { animation-delay: 4s; }
-                .path-animation:nth-child(9) { animation-delay: 4s; }
-
-                @keyframes draw {
-                    0%, 30% { stroke-dashoffset: 1000; }
-                    18%, 20% { stroke-dashoffset: 0; }
-                }
-
-                svg {
-                    width: 100px;
-                    height: 100px;
-                }
-            `}</style>
         </div>
     );
 };

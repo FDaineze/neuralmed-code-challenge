@@ -9,15 +9,30 @@ import {
 import { Character, MarvelItem, MarvelApiDetails } from '../../types/marvel';
 import CatalogList from '../../components/CatalogList';
 import LoadingScreen from '../../components/LoadingScreen';
+import { generateHash } from '../../utils/hash';
 
 type CharacterDetailsProps = {
     initialCharacter: Character;
     initialComics: MarvelApiDetails<MarvelItem>;
     initialEvents: MarvelApiDetails<MarvelItem>;
     initialSeries: MarvelApiDetails<MarvelItem>;
+    // Dados de requisição (gerados no servidor para proteger a PRIVATE_KEY)
+    serverTs: string;
+    serverApiKey: string;
+    serverHash: string;
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
+    const serverTs = Date.now().toString();
+    const API_KEY = process.env.API_KEY!;
+    const PRIVATE_KEY = process.env.PRIVATE_KEY!;
+    
+    if (!API_KEY || !PRIVATE_KEY) {
+        throw new Error("API_KEY and PRIVATE_KEY must be defined in .env file");
+    }
+
+    const serverHash = generateHash(serverTs, PRIVATE_KEY, API_KEY);
+
     const { id } = context.params!;
     if (!id || isNaN(Number(id))) {
         return {
@@ -26,10 +41,10 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     }
 
     try {
-        const character = await fetchMarvelCharacterById(Number(id));
-        const comics = await fetchComicsByCharacterId(Number(id));
-        const events = await fetchEventsByCharacterId(Number(id));
-        const series = await fetchSeriesByCharacterId(Number(id));
+        const character = await fetchMarvelCharacterById(Number(id), serverTs, API_KEY, serverHash);
+        const comics = await fetchComicsByCharacterId(Number(id), serverTs, API_KEY, serverHash);
+        const events = await fetchEventsByCharacterId(Number(id), serverTs, API_KEY, serverHash);
+        const series = await fetchSeriesByCharacterId(Number(id), serverTs, API_KEY, serverHash);
 
         if (!character) {
             return {
@@ -43,6 +58,9 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
                 initialComics: comics || null,
                 initialEvents: events || null,
                 initialSeries: series || null,
+                serverTs: serverTs,
+                serverApiKey: API_KEY,
+                serverHash: serverHash
             },
         };
     } catch (error) {
@@ -57,6 +75,9 @@ const CharacterDetailsPage: React.FC<CharacterDetailsProps> = ({
     initialComics,
     initialEvents,
     initialSeries,
+    serverTs,
+    serverApiKey,
+    serverHash
 }) => {
     const [loading, setLoading] = useState<boolean>(false);
     const [character, setCharacter] = useState<Character>(initialCharacter);
@@ -67,11 +88,12 @@ const CharacterDetailsPage: React.FC<CharacterDetailsProps> = ({
     useEffect(() => {
         const fetchData = async () => {
             setLoading(true);
+
             try {
-                const character = await fetchMarvelCharacterById(Number(initialCharacter.id));
-                const comics = await fetchComicsByCharacterId(Number(initialCharacter.id));
-                const events = await fetchEventsByCharacterId(Number(initialCharacter.id));
-                const series = await fetchSeriesByCharacterId(Number(initialCharacter.id));
+                const character = await fetchMarvelCharacterById(Number(initialCharacter.id), serverTs, serverApiKey, serverHash);
+                const comics = await fetchComicsByCharacterId(Number(initialCharacter.id), serverTs, serverApiKey, serverHash);
+                const events = await fetchEventsByCharacterId(Number(initialCharacter.id), serverTs, serverApiKey, serverHash);
+                const series = await fetchSeriesByCharacterId(Number(initialCharacter.id), serverTs, serverApiKey, serverHash);
 
                 setCharacter(character);
                 setComics(comics);
